@@ -11,7 +11,7 @@
 
 #4. you put the script in a folder called cgi-bin
 #5. you make the script executable: chmod u+x getPic2.sh
-#6. Read the preparation steps which are needed to make this work under: <TBD>
+#6. Read the preparation steps which are needed to make this work under: http://www.jasm.eu/2016/12/19/photo-wall-with-wood-frames/
 #7. you start a test server on your mac with the command 
 #python -m CGIHTTPServer 8000 
 #8. and then you may call the script on: http://localhost:8000/cgi-bin/getPic2.sh?950:123
