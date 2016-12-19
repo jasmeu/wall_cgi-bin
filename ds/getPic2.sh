@@ -4,7 +4,7 @@
 #Before using this script, consider: https://github.com/jasmeu/wall_cgi-bin/blob/master/README.md
 
 #1. you create the list with the paths to all your photos by calling: 
-#find "path/to/search/ie/the/root/folder/for/your/pics" -type f -iname "*.jpg" > list.txt
+#find "path/to/search/ie/the/root/folder/for/your/pics" -type f -iname "*.jpg" ! -path "*@eaDir*" > list.txt
 #2. in the call head -n $lineNumber ..., you adjust the path to list.txt to correspond to the path relevant for you. Best: use the absolute path.
 #3. you get the number below (i.e. the one instead 10000) by calling 
 #wc -l list.txt
