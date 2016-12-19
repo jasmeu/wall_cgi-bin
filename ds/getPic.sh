@@ -10,7 +10,7 @@
 #wc -l list.txt
 #4. you put the script in a folder called cgi-bin
 #5. you make the script executable: chmod a+x getPic.sh
-#7. and then you may call the script on: http://<synology_name>/cgi-bin/getPic.sh?950:123
+#6. and then you may call the script on: http://<synology_name>/cgi-bin/getPic.sh?950:123
 
 
 countPicz=10000-3
