@@ -10,7 +10,7 @@
 #wc -l list.txt
 #4. you put the script in a folder called cgi-bin
 #5. you make the script executable: chmod a+x getPic2.sh
-#6. Read the preparation steps which are needed to make this work under: <TBD>
+#6. Read the preparation steps which are needed to make this work under: http://www.jasm.eu/2016/12/19/photo-wall-with-wood-frames/
 #7. and then you may call the script on: http://<synology_name>/cgi-bin/getPic2.sh?950:123
 
 function log {
